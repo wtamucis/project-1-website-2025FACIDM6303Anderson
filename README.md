@@ -1,47 +1,53 @@
 # Lord of the Rings Website
 
-This project was created for **CIDM 6303 – Technical Foundations of CIS** as **Project 1: Build a Website**.  
-The goal of this assignment was to design a multi-page website using HTML and CSS.
+A three-page static website exploring the deep history, mythology, and themes of J.R.R. Tolkien’s Middle-earth.  
+Built using semantic HTML5 and CSS with a focus on clarity, accessibility, and visual consistency.
 
+---
 
-## Project Overview
-- **Topic:** The history and lore of Tolkien's *Lord of the Rings* universe.  
-- **Pages:**
-  - `index.html` → Homepage introducing the theme.  
-  - `deep-cuts.html` → Explores deep lore such as the fall of Númenor.  
-  - `rings-of-power.html` → Focuses on the forging of the Rings of Power.  
-- **Styling:**  
-  - `styles.css` handles all visual design (colors, layout, fonts).  
-  - Pages use consistent navigation, headings, and formatting.
+## Overview
+**Pages**
+- `index.html` — Introduction to the First and Second Ages.  
+- `deep-cuts.html` — Explores deeper lore such as the Fall of Númenor and the Blue Wizards.  
+- `rings-of-power.html` — Focuses on the forging of the Rings of Power and includes a demo form.  
 
+**Styling**
+- All design handled by `styles.css`.  
+- Shared navigation, typography, and layout ensure a consistent theme.  
+- The `<main class="content-area">` wrapper creates a clean, readable contrast block for content.
 
-##  Images
-All images are stored in the `/images` folder:  
+---
+
+## Images
+Stored in the `/images` folder:  
 - `elves.jpg` – Awakening of the Elves  
-- `numenor.jpg` – Downfall of Númenor  
-- `rings.jpg` – Forging the Rings of Power  
+- `numenor.jpg` – Fall of Númenor  
+- `rings.jpg` – Forging of the Rings of Power  
 
-Sources: Public domain/educational fair use for course purposes.
+**Credits:** Educational/fair-use assets. Attribution included on each page.
 
+---
 
 ## Features
-- External CSS stylesheet applied to all pages.  
-- Semantic HTML structure with `<main>`, `<header>`, `<nav>`, `<footer>`.  
-- Navigation links included on every page for easy browsing.  
-- Form included on `rings-of-power.html` to demonstrate interactivity.  
-- Fully structured to meet the course rubric:
-  - 3+ substantial paragraphs on each page.
-  - At least one `<ol>` / `<ul>` and `<hr>` included.
-  - Proper use of `<html>`, `<body>`, `<h1>`, `<p>`, `<b>`, `<i>`, `<a>`, `<img>`.
+- External CSS for layout, colors, and typography.  
+- Responsive design for desktop and mobile.  
+- Shared navigation menu with active-page highlighting.  
+- Semantic HTML: `<header>`, `<main>`, `<nav>`, `<footer>`.  
+- Form included on the Rings of Power page to demonstrate interactivity.  
 
+---
 
+## How to View
+1. Download or clone this repository.  
+2. Open `index.html` in any browser **or** run it using VS Code’s *Live Server*.  
+3. Navigate between pages using the menu links.
 
-##  How to View
-1. Clone or download the repository.  
-2. Open `index.html` in your browser **OR** use VS Code with the Live Server extension.  
-3. Navigate the site using the menu links.
+---
 
+## License
+This project is for educational use only.  
+All written content and structure authored by the student.  
+Images remain the property of their respective artists and are used under fair-use conditions.
 
+*© 2025 Unwritten Middle-earth • Educational Use Only*
 
-## Note
-- This repository is also part of my coursework submission for CIDM 6303.  
